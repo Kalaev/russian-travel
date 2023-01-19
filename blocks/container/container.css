@@ -1,5 +1,5 @@
 
-.body__container{
+.container{
     font-family: "Inter", sans-serif;
     background-color: #2A2C2F;
     color: white;
@@ -9,7 +9,7 @@
 }
 
 @media screen and(max-width:320px){
-    .body__container{ 
+    .container{ 
         width: max-content;
     }
   }
