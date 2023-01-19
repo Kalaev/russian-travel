@@ -10,14 +10,14 @@
 @media screen and (min-width: 769px) and (max-width:1024px){
     .photo-grid__image{
       min-width: 300px;
-      max-height: 225px
+      max-height: 225px;
     }
   }
 
 @media screen and (min-width: 321px) and (max-width:769px){
     .photo-grid__image{
       min-width: 352px;
-      max-height: 264px
+      max-height: 264px;
     }
   }
 
