@@ -1,0 +1,26 @@
+
+.lead {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 148px 92px 148px;
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+    .lead{
+        margin: auto;
+    }
+  }
+
+  @media screen and (min-width: 321px) and (max-width:768px){
+    .lead{
+        margin: 0;
+    }
+  }
+
+ @media screen and (max-width:320px){
+    .lead{
+        flex-direction: column;
+        width: fit-content;
+        margin: 0;
+    }
+  }

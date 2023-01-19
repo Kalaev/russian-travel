@@ -1,0 +1,25 @@
+@font-face { /*Я оставил там много других шрифтов*/
+    font-family: "Inter";
+    src: url(./fonts/Inter-Black.woff2) format("woff2"),
+         url(./fonts/Inter-Black.woff) format("woff");
+    font-weight: bold;
+    font-style: bold;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter-BlackItalic.woff2) format("woff2"),
+         url(./fonts/Inter-BlackItalic.woff) format("woff");
+    font-weight: italic;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter-Regular.woff2) format("woff2"),
+         url(./fonts/Inter-Regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
