@@ -1,23 +1,22 @@
 
 .photo-grid__image{
-    display: block;
     margin: 0;
     min-width: 284px;
-    max-height: 213px;
-    max-width: 100%;
+    min-height: 213px;
+    width: 100%;
 }
 
 @media screen and (min-width: 769px) and (max-width:1024px){
     .photo-grid__image{
       min-width: 300px;
-      max-height: 225px;
+      min-height: 225px;
     }
   }
 
 @media screen and (min-width: 321px) and (max-width:769px){
     .photo-grid__image{
       min-width: 352px;
-      max-height: 264px;
+      min-height: 264px;
     }
   }
 
@@ -25,6 +24,5 @@
     .photo-grid__image{
       min-width: 288px;
       min-height: 216px;
-      width: 100%;
     }
   }

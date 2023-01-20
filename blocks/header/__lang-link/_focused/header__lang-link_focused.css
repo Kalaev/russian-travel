@@ -1,0 +1,7 @@
+
+.header__lang-link_focused{
+    text-decoration: underline;
+    list-style-type: none;
+    color: white;
+    margin-right: 18px; /*почему-то не применяется пока тут не прописал буду думать*/
+}

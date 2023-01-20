@@ -2,19 +2,18 @@
 .places{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin: 92px 148px 92px;
+    margin: 92px 100px 92px;
 }
 
-@media screen and(max-width:1024px) and(min-width:769px){
+@media screen and (max-width:1024px) and (min-width:769px){
     .places{
-     margin: 92px 48px;
+     margin: 0 48px 92px;
   }
 }
 
-@media screen and(max-width:768px) and(min-width:321px){
+@media screen and (max-width:768px) and (min-width:321px){
     .places{
-     margin: 88px 24px 90px 24px;
+     margin: 88px 24px 90px;
   }
 }
 

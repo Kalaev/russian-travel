@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="icon" href="./images/РФ.png"> <!--попробовал поставить фавиконку-->
+    <link rel="icon" href="./images/РФ.png"> <!--Спасибо большое, за огромное количество новой информации. 
+      В данный момент я не смог воспользоваться плагином по шрифтам буду пробовать дальше. 
+      Заранее очень извиняюсь если попадутся мои повторные ошибки. Я честно старался. 
+      Временами сходил с ума, но постоянно думал о верстке за это отдельное спасибо. 
+      Данная работа была очень трудной для меня. Больше не буду лениться и опускать рук. -->
     <title>Russian-travel</title>
 </head>
 <body class="container">
+  <div class="page">
   <header class="header">
-    <img class="header__logo" src="./images/header-logo.svg" alt=""> <!--потратил минут 20 хотел выложить картинку через код, 
-      постоянно приходила ошибка, 
-      просит подключить отдельным файлом.
-       Почему как делал нельзя - не понятно-->
-    <nav class="header__lang-link">
-      <a class="header__lang-link-ru" href="#">RU</a>
-      <a class="header__lang-link-eng" href="#">ENG</a>
-    </nav>
+    <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Карта России">
+    <div class="header__lang-link">
+      <a class="headet__lang-link header__lang-link_focused" href="#">RU</a>
+      <a class="header__lang-link" href="#">ENG</a>
+    </div>
   </header>
   <main>
     <section class="lead">
@@ -99,12 +101,12 @@
     <section class="places">
         <div class="place">
             <h3 class="place__title">Куршская коса</h3>            
-            <nav class="place__website">
-                <p class="place__url-heading">URL</p>
+            <div class="place__website">
+                <p class="place__url-heading">Url</p><!--отдельное спасибо за эту крутату))-->
                 <a class="place__link" href="http://park-kosa.ru">
                   http://park-kosa.ru
                 </a>
-            </nav>
+            </div>
             <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
             <div class="place__paragraphs">
               <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного 
@@ -120,12 +122,12 @@
         </div>
         <div class="place">
             <h3 class="place__title">Кольский</h3>            
-            <nav class="place__website">
-                <p class="place__url-heading">URL</p>
+            <div class="place__website">
+                <p class="place__url-heading">Url</p>
                 <a class="place__link" href="ttps://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">
                   National Geographic
                 </a>
-            </nav>
+              </div>
             <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
             <div class="place__paragraphs">
               <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
@@ -140,12 +142,12 @@
         </div>
         <div class="place">
             <h3 class="place__title">Алтай</h3>
-            <nav class="place__website">
-                <p class="place__url-heading">URL</p>
+            <div class="place__website">
+                <p class="place__url-heading">Url</p>
                 <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">
                   YouTube
                 </a>
-            </nav>
+            </div>
             <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
             <div class="place__paragraphs">
              <p class="place__paragraph">Алтай — одно из красивейших мест в России. 
@@ -161,14 +163,14 @@
         </div>
         <div class="place">
             <h3 class="place__title">Зимний Байкал</h3> 
-            <nav class="place__website">
-                <p class="place__url-heading">URL</p>
+            <div class="place__website">
+                <p class="place__url-heading">Url</p>
                 <a class="place__link" href="https://vk.com/baikalmile">
                   https://vk.com/baikalmile
                 </a>
-            </nav>
+              </div>
             <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
-            <div class="place__paragraph">
+            <div class="place__paragraphs">
               <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
                 в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
               </p>
@@ -181,12 +183,12 @@
         </div>
         <div class="place">
             <h3 class="place__title">Карелия</h3>
-            <nav class="place__website">
-                <p class="place__url-heading">URL</p>
+            <div class="place__website">
+                <p class="place__url-heading">Url</p>
                 <a class="place__link" href="http://vodlozero.ru">
                   http://vodlozero.ru
                 </a>
-            </nav>
+              </div>
             <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
                 В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
@@ -195,7 +197,7 @@
         </div>
     </section>
     <section class="cover">
-      <a  class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+      <a  class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
         <h2 class="cover__title"> До&nbsp;Байкала «на&nbsp;собаках»</h2>
         <p class="cover__subtitle">
           По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
@@ -203,15 +205,26 @@
       </a>
     </section>
   </main>
-  <footer class="footer">
-    <nav class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-    </nav>
-    <p class="footer__copyright">© 2020 Калаев Х.М.</p>
-  </footer>
+    <footer class="footer">
+      <ul class="footer__links"> 
+        <li class="footer__link">
+          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+        </li>
+        <li class="footer__link">
+          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+        </li>
+        <li class="footer__link">
+          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+        </li>
+        <li class="footer__link">
+          <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+        </li>
+        <li class="footer__link">
+          <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+        </li>
+      </ul>
+      <p class="footer__copyright">© 2020 Калаев Х.М.</p>
+    </footer>
+  </div>
 </body>
 </html>
