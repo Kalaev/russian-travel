@@ -1,10 +1,9 @@
-
-.intro__list{
+.intro__list {
     display: block;
     list-style-type: none;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 12px;
     line-height: 18px;
-    margin: 0;  
+    margin: 0;
 }

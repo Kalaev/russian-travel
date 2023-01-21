@@ -1,8 +1,20 @@
-
-.intro__text{
+.intro__text {
+    width: max-content;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
     margin: 40px 0 33px;
+    max-width: 690px;
 }
+
+@media screen and (max-width:479px) {
+    .intro__text {
+        margin-bottom: 34px;
+        max-width: 288px;
+    }
+}
+
+/*Я не знал откуда брать максимальную ширину текстового блока. 
+Зашел в фигму и просто оттуда взял подходящее по моему мнению значение. 
+Если это будет не правильно подскажите где что прочесть. Буду благодарен.*/

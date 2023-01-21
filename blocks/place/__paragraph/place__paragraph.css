@@ -1,51 +1,35 @@
-
-.place__paragraph{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    margin: 0;
+.place__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
 }
 
-.place__paragraph:nth-child(2){
-    margin-top: 26px;
+.place__paragraph:nth-child(2) {
+  margin-top: 26px;
 }
 
-@media screen and (min-width: 769px) and (max-width:1024px){
-    .place__paragraph{
-      font-size: 18px;
-      margin: 0;
+@media screen and(max-width:1024px) {
+  .place__paragraph:last-child {
+    margin-top: 27px;
   }
 }
 
-@media screen and(max-width:1024px) and(min-width:769px){
-    .place__paragraph:nth-child(2){
-      margin-top: 27px;
-  }
-}
-
-@media screen and(max-width:768px) and(min-width:321px){
-  .place__paragraph{
-    margin: 0;
-}
-}
-
-@media screen and(max-width:768px) and(min-width:321px){
-  .place__paragraph:nth-child(2){
-    margin-top: 25px;
-}
-}
-
-@media screen and (max-width:320px){
-  .place__paragraph{
+@media screen and(max-width:768px) {
+  .place__paragraph {
     font-size: 16px;
-    margin-left: 16px;/*это очень костыльно, ни могу по другому. Признаюсь я тормоз*/
-}
+  }
 }
 
-@media screen and (max-width:320px){
-  .place__paragraph:nth-child(2){
+@media screen and(max-width:768px) {
+  .place__paragraph:last-child {
     margin-top: 25px;
-    margin-bottom: 50px;
+  }
 }
+
+@media screen and (max-width:479px) {
+  .place__paragraph {
+    margin: 0 16px;
+  }
 }

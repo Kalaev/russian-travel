@@ -1,5 +1,4 @@
-
-.place__title{
+.place__title {
   align-items: flex-start;
   font-style: normal;
   font-weight: 900;
@@ -8,18 +7,18 @@
   margin: 0;
 }
 
-@media screen and (max-width:768px) and (min-width:321px){
-  .place__title{
+@media screen and (max-width:768px) {
+  .place__title {
     font-size: 42px;
     line-height: 46px;
-   
-}
+
+  }
 }
 
-@media screen and (max-width:320px){
-  .place__title{
+@media screen and (max-width:479px) {
+  .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin-left: 16px;/*это очень костыльно, ни могу по другому. Признаюсь я тормоз*/
-}
+    margin: 0 16px;
+  }
 }

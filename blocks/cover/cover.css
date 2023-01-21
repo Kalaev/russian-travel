@@ -1,17 +1,16 @@
-
-.cover{
+.cover {
   display: block;
   margin: 0 auto 0;
 }
 
-@media screen and (max-width:768px) and (max-width:1024px){
- .cover{ 
-  margin: 0;
- }
+@media screen and(max-width:767px) {
+  .cover {
+    margin: 0;
+  }
 }
 
-@media screen and (max-width:320px){
-  .cover{
+@media screen and (max-width:479px) {
+  .cover {
     margin: 0;
   }
 }
