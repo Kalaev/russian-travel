@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 560px) {
   .footer {
     flex-direction: column;
     text-align: start;

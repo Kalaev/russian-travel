@@ -6,25 +6,9 @@
   margin: 0;
 }
 
-.place__paragraph:nth-child(2) {
-  margin-top: 26px;
-}
-
-@media screen and(max-width:1024px) {
-  .place__paragraph:last-child {
-    margin-top: 27px;
-  }
-}
-
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
   .place__paragraph {
     font-size: 16px;
-  }
-}
-
-@media screen and(max-width:768px) {
-  .place__paragraph:last-child {
-    margin-top: 25px;
   }
 }
 
@@ -33,3 +17,6 @@
     margin: 0 16px;
   }
 }
+
+/*я верстаю на маке тут сочитание для удаления лишних пробело "shift+option+f" сделал вроде норм.
+ Извините что пропустил*/
