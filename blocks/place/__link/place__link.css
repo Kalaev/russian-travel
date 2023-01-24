@@ -6,6 +6,7 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     transition: ease 1s;
+    margin: 0;
 }
 
 .place__link:hover {

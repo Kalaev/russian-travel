@@ -4,6 +4,13 @@
     flex-direction: row;
     text-decoration: none;
     list-style-type: none;
-    margin: 0;
+    margin: 18px 0 6px;
     padding: 0;
 }
+
+
+@media screen and (max-width:479px) {
+    .header__lang-links {
+      margin: 14px 0 8px;
+    }
+  }

@@ -1,5 +1,4 @@
 .header__lang-link {
-  margin: 18px 0 6px;
   color: white;
   text-decoration: none;
   list-style-type: none;
@@ -12,12 +11,4 @@
 
 .header__lang-link:hover {
   opacity: 0.8;
-}
-
-@media screen and (max-width:479px) {
-  .header__lang-link {
-    margin: 14px 0 8px;
-    font-size: 18px;
-    line-height: 20px;
-  }
 }
