@@ -5,7 +5,8 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
-  width: 97%;
+  width: 95%;/*ошибка 7 эта возня из-за переноса "Куршская коса" и не переноса "Зимний Байкал. 
+  Буду признателен за полезную ссылку"*/
 }
 
 @media screen and (max-width:768px) {
@@ -19,7 +20,6 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 0;
     padding-left: 16px;
   }
 }

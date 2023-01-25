@@ -10,10 +10,16 @@
     padding-bottom: 0px;
 }
 
+@media screen and (max-width:1024px) {
+    .place {
+        gap: 48px 32px;
+    }
+}
+
 @media screen and (max-width:768px) {
     .place {
         padding-bottom: 73px;
-        width: 100%;
+        gap: 40px 28px;
     }
 }
 
@@ -21,6 +27,9 @@
     .place {
         grid-template-columns: repeat(1, 1fr);
         gap: 32px;
+        /*По PP тут подходит 25px.
+         Я подгонял под PP картинку есть расхождения в несколько пикселей я установил 
+         цифры из макета.*/
         padding-bottom: 50px;
     }
 }

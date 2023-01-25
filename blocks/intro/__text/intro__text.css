@@ -5,9 +5,7 @@
     line-height: 163%;
     padding: 40px 0 33px;
     margin: 0;
-    max-width: 690px;/* у меня такое ощущение что я это писал вчера. 
-    Не знаю почему не сохранил. 
-    Методом научного тыка(прошу прощения) идет моя учеба*/
+    max-width: 690px;
 }
 
 @media screen and (max-width:768px) {

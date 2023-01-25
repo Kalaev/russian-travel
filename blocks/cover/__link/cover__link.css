@@ -14,7 +14,7 @@
   width: 100%;
   min-height: 740px;
   z-index: 0;
-  margin: 0 auto;/*ошибка 1-2*/
+  margin: 0 auto;
 }
 
 
@@ -28,6 +28,8 @@
   opacity: 0.3;
   background-color: #2A2C2F;
   z-index: -1;
+  top: auto;/*ошибка 1*/
+  left: auto;
 }
 
 .cover__link:hover::before {
