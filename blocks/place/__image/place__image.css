@@ -1,8 +1,10 @@
 .place__image {
   display: block;
+  width: 100%;
   max-width: 460px;
   object-fit: contain;
   object-position: left top;
+  margin: 0;
 }
 
 @media screen and (max-width:1024px) {
@@ -13,12 +15,7 @@
 
 @media screen and (max-width:768px) {
   .place__image {
-    max-width: 340px;
-  }
-}
-
-@media screen and (max-width:479px) {
-  .place__image {
-    max-width: 320px;
+    width: 100%;
+    padding: 0;
   }
 }

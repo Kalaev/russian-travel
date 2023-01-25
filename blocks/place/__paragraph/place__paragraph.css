@@ -4,19 +4,19 @@
   font-size: 18px;
   line-height: 163%;
   margin: 0;
+  white-space: wrap;
 }
 
 @media screen and (max-width:768px) {
   .place__paragraph {
     font-size: 16px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width:479px) {
   .place__paragraph {
-    margin: 0 16px;
+    margin: 0;
+    width: 100%;
   }
 }
-
-/*я верстаю на маке тут сочитание для удаления лишних пробело "shift+option+f" сделал вроде норм.
- Извините что пропустил*/

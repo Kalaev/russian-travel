@@ -14,9 +14,7 @@
   width: 100%;
   min-height: 740px;
   z-index: 0;
-  margin: 0 auto;
-  top:auto;
-  left: auto;
+  margin: 0 auto;/*ошибка 1-2*/
 }
 
 
