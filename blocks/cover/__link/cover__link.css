@@ -28,8 +28,8 @@
   opacity: 0.3;
   background-color: #2A2C2F;
   z-index: -1;
-  top: auto;/*ошибка 1*/
-  left: auto;
+  top: 0;
+  left: 0;
 }
 
 .cover__link:hover::before {

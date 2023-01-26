@@ -8,9 +8,9 @@
   max-width: 720px;
 }
 
-@media screen and (max-width:720px) {/*ошибка 3*/
+@media screen and (max-width:720px) {
   .lead__title {
     font-size: 40px;
-    line-height: 44px; /*тут была ошибка 4*/
+    line-height: 44px;
   }
 }
